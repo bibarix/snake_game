@@ -1,0 +1,50 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #4CAF50;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.download-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #777;
+}
